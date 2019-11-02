@@ -134,4 +134,9 @@ footer {
 	footer {
 		position: initial;
 	}
+	
+	.title {
+		letter-spacing: initial;
+		font-size: 65%;
+	}
 }
