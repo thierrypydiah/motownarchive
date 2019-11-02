@@ -1,0 +1,94 @@
+* {
+
+
+	/* These will reset the behaviour of padding so your width doesn't get bigger if you add padding */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+html body {
+	/*background-color: #9fccd1;*/
+	background-color: #b1c5c7;
+	background-image: url(musical_photo_background.jpg);
+ 	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	/*position: relative;*/
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Exo', sans-serif; 
+
+}
+
+.paragraphs {
+	color: #415d5e;
+	margin: 10px;
+	padding: 50px;
+	width: 50%;
+}
+
+.officialwebsite {
+	text-decoration: none;
+	color: white;
+	border-style: double;
+	padding: 10px;
+}
+
+
+footer {
+	/*position: absolute;*/
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-top: 5px;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/*text-shadow: 1px 1px 2px white;*/
+
+}
+
+.link {
+	color: #415d5e;
+	text-decoration: none;
+
+}
+
+.title {
+	background-color: #b1c5c7;
+	width: 100%;
+	position: fixed;
+  	top: 0;
+  	margin-top: 0px;
+  	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	color: rgba(255, 255, 255, 0.4);
+	letter-spacing: 10px;
+}
+
+@media only screen and (max-width: 800px){
+
+	html body {
+		background-image: none;
+	}
+
+	footer {
+		position: initial;
+	}
+
+	.paragraphs {
+		width: 100%;
+	}
+
+	.title {
+		letter-spacing: 2px;
+	}
+
+}
